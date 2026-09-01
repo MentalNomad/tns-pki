@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Triple Nine Society Public Key Infrastructure</title>
+<style>body{max-width:980px;margin:2rem auto;padding:0 1rem;font:16px/1.5 system-ui,sans-serif}code{overflow-wrap:anywhere}table{border-collapse:collapse;width:100%}th,td{border:1px solid #aaa;padding:.55rem;text-align:left}.warning{padding:1rem;border:2px solid #8b5e00;background:#fff8e6}</style></head>
+<body><h1>Triple Nine Society Public Key Infrastructure</h1>
+<div class="warning"><strong>Trust notice:</strong> This is a private organizational CA. Recipients must independently establish trust in the Root CA and the signer's authority.</div>
+<h2>Root CA</h2><p><a href="ca/root-ca.cer">DER</a> | <a href="ca/root-ca.pem">PEM</a></p><p><code>8A:3F:0F:51:12:22:72:F4:4A:7F:E0:F6:0E:60:1F:57:DA:0F:FA:67:41:22:A1:DC:2B:73:E9:85:23:50:A8:B6</code></p>
+<h2>Document Signing Issuing CA</h2><p><a href="ca/document-signing-ca.cer">DER</a> | <a href="ca/document-signing-ca.pem">PEM</a></p><p><code>9F:B9:FA:29:39:6B:74:BA:8B:56:04:2D:63:A4:75:77:57:3A:EF:2E:01:E9:BE:FE:4C:69:CF:48:13:CF:60:05</code></p>
+<h2>Signer certificates</h2><table><thead><tr><th>Name</th><th>Role</th><th>Serial</th><th>Status</th><th>Certificate</th></tr></thead><tbody><tr><td>Edward Iskra</td><td>Corporate Secretary</td><td><code>2000</code></td><td>valid</td><td><a href="certs/corporate-secretary-2000.cer">DER</a> | <a href="certs/corporate-secretary-2000.pem">PEM</a></td></tr></tbody></table>
+<h2>Revocation</h2><ul><li><a href="crl/root-ca.crl">Root CA CRL</a></li><li><a href="crl/document-signing-ca.crl">Document Signing CA CRL</a></li></ul>
+<h2>Verification data</h2><ul><li><a href="policy/cps.html">Certificate Practice Statement</a></li><li><a href="fingerprints.txt">Fingerprints</a></li><li><a href="SHA256SUMS">Checksums</a></li><li><a href="status/certificates.json">Status JSON</a></li></ul>
+<p>Published identically at <code>pki.triplenine.org</code> and <code>tns-pki.wandering.by</code>.</p></body></html>

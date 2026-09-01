@@ -1,0 +1,59 @@
+{
+  "certificates": [
+    {
+      "common_name": "TNS-CA-Root",
+      "email": null,
+      "fingerprint_sha256": "8A:3F:0F:51:12:22:72:F4:4A:7F:E0:F6:0E:60:1F:57:DA:0F:FA:67:41:22:A1:DC:2B:73:E9:85:23:50:A8:B6",
+      "issuer": "CN=TNS-CA-Root,OU=Public Key Infrastructure,O=Triple Nine Society,L=Charlottesville,ST=Virginia,C=US",
+      "issuer_fingerprint": "8A:3F:0F:51:12:22:72:F4:4A:7F:E0:F6:0E:60:1F:57:DA:0F:FA:67:41:22:A1:DC:2B:73:E9:85:23:50:A8:B6",
+      "not_after": "2041-08-28T18:14:05+00:00",
+      "not_before": "2026-09-01T18:09:05+00:00",
+      "organization": "Triple Nine Society",
+      "organizational_unit": "Public Key Infrastructure",
+      "revocation_reason": null,
+      "revoked_at": null,
+      "role": "root_ca",
+      "serial": "6B5E2ADE0FF89C06BB2BB83F7BBA76E9023028BD",
+      "signer_role": null,
+      "status": "valid",
+      "subject_key_identifier": "B2:CA:21:06:B3:80:25:B8:F0:E4:DE:DA:C3:33:13:B9:8E:A9:ED:10"
+    },
+    {
+      "common_name": "Triple Nine Society Document Signing Root",
+      "email": null,
+      "fingerprint_sha256": "9F:B9:FA:29:39:6B:74:BA:8B:56:04:2D:63:A4:75:77:57:3A:EF:2E:01:E9:BE:FE:4C:69:CF:48:13:CF:60:05",
+      "issuer": "CN=TNS-CA-Root,OU=Public Key Infrastructure,O=Triple Nine Society,L=Charlottesville,ST=Virginia,C=US",
+      "issuer_fingerprint": "8A:3F:0F:51:12:22:72:F4:4A:7F:E0:F6:0E:60:1F:57:DA:0F:FA:67:41:22:A1:DC:2B:73:E9:85:23:50:A8:B6",
+      "not_after": "2033-09-01T18:14:05+00:00",
+      "not_before": "2026-09-01T18:09:05+00:00",
+      "organization": "Triple Nine Society",
+      "organizational_unit": "Public Key Infrastructure",
+      "revocation_reason": null,
+      "revoked_at": null,
+      "role": "issuing_ca",
+      "serial": "1000",
+      "signer_role": null,
+      "status": "valid",
+      "subject_key_identifier": "65:F0:39:4F:68:6E:26:61:64:61:32:4C:CE:0C:E8:41:DF:02:86:65"
+    },
+    {
+      "common_name": "Edward Iskra",
+      "email": "edward.iskra@triplenine.org",
+      "fingerprint_sha256": "C1:C3:C4:F8:FE:12:7B:4D:D6:61:94:75:56:3C:C8:D2:83:82:93:78:B1:4B:7E:EB:33:FB:AF:50:09:EE:DB:58",
+      "issuer": "CN=Triple Nine Society Document Signing Root,OU=Public Key Infrastructure,O=Triple Nine Society,L=Charlottesville,ST=Virginia,C=US",
+      "issuer_fingerprint": "9F:B9:FA:29:39:6B:74:BA:8B:56:04:2D:63:A4:75:77:57:3A:EF:2E:01:E9:BE:FE:4C:69:CF:48:13:CF:60:05",
+      "not_after": "2027-09-06T18:54:38+00:00",
+      "not_before": "2026-09-01T18:49:38+00:00",
+      "organization": "Triple Nine Society",
+      "organizational_unit": "Corporate Secretary",
+      "revocation_reason": null,
+      "revoked_at": null,
+      "role": "signer",
+      "serial": "2000",
+      "signer_role": "Corporate Secretary",
+      "status": "valid",
+      "subject_key_identifier": "6B:AA:0D:39:E1:8D:A4:5A:39:F4:B9:4D:36:D3:A9:8C:2A:D0:DE:5F"
+    }
+  ],
+  "schema": 1
+}

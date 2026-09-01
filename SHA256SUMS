@@ -1,0 +1,14 @@
+8fdfb2edc5c7e452423ef32951e9249f6755caa278734b15db0216768e66e9ba  ./ca/chain.pem
+9fb9fa29396b74ba8b56042d63a47577573aef2e01e9befe4c69cf4813cf6005  ./ca/document-signing-ca.cer
+6a6111ceb5d8ac1387034f050c976f1a1b26c37eebae6b41477ee58969a92820  ./ca/document-signing-ca.pem
+8a3f0f51122272f44a7fe0f60e601f57da0ffa674122a1dc2b73e9852350a8b6  ./ca/root-ca.cer
+3e3a63d9e138df43886f7ffe0605cdde1f9fc732de29226895f5e81b7b326ef6  ./ca/root-ca.pem
+c1c3c4f8fe127b4dd6619475563cc8d283829378b14b7eeb33fbaf5009eedb58  ./certs/corporate-secretary-2000.cer
+4f2fb85884adc79328467991cdc0d60e83bec4faab58ef3df956d028d8dc5f11  ./certs/corporate-secretary-2000.pem
+01f8af1821651a50efe31ed38d61bbbe77ee09fd9e417843920c545eca024a8b  ./crl/document-signing-ca.crl
+0f4d342d85ba41f8e57c9ea97ee984d9456e255c7c0210c30d0086391b78c27e  ./crl/root-ca.crl
+1d651d242669f410c76cb3b4ce400fd334096b0427eb5582b3636361c70e9ad7  ./fingerprints.txt
+62051e59a8a78404c601747d4494e027a677b41fec32a8001f2e0c9e298a6afa  ./index.html
+a067fbb77b1c05c898700eb82e674bb33fa70cdf6413e33f266980f5c3a1a301  ./policy/cps.html
+174efdb0c8fc8870249e1575d88d3c3bf45da0fee6084f5897daac0105fc19ff  ./status/certificates.json
+53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3  ./status/revision.txt
